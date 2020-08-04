@@ -1,14 +1,15 @@
 #ifndef EQUATION
 #define EQUATION
 
-#include "Parameter.h"
+#include <vector>
 
 class Equation
 {
 public:
-	Equation(Parameter params[], unsigned short comparisonOperator);
+	Equation(int params[], int n, unsigned short comparisonOperator);
 private:
-	Parameter* m_params;
+	std::vector<int> m_params;
+	int m_comparisonOperator;
 };
 
 #endif
