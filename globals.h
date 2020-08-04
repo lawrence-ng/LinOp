@@ -1,8 +1,8 @@
 #ifndef GLOBALS
 #define GLOBALS
 
-const int EQUALS;
-const int LESS_EQUAL;
-const int GREATER_EQUAL;
+const int EQUALS = 1;
+const int LESS_EQUAL = 2;
+const int GREATER_EQUAL = 3;
 
-#endif
+#endif 
