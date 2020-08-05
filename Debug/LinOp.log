@@ -1,0 +1,11 @@
+﻿  Equation.cpp
+  LinOp.cpp
+D:\ambrosio\LinOp\LinOp\LinOp.cpp(25,23): warning C4018: '<': signed/unsigned mismatch
+D:\ambrosio\LinOp\LinOp\LinOp.cpp(29,23): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+D:\ambrosio\LinOp\LinOp\LinOp.cpp(85): warning C4715: 'LinOp::isIntersection': not all control paths return a value
+D:\ambrosio\LinOp\LinOp\LinOp.cpp(36): warning C4715: 'LinOp::findOptimums': not all control paths return a value
+D:\ambrosio\LinOp\LinOp\LinOp.cpp(98): warning C4715: 'LinOp::intersection': not all control paths return a value
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall LinOp::LinOp(void)" (??0LinOp@@QAE@XZ) referenced in function _main
+D:\ambrosio\LinOp\Debug\LinOp.exe : fatal error LNK1120: 1 unresolved externals

@@ -7,8 +7,8 @@ class Equation
 {
 public:
 	Equation(int params[], int n, unsigned short comparisonOperator);
+	std::vector<int> m_coefficients;
 private:
-	std::vector<int> m_params;
 	int m_comparisonOperator;
 };
 
